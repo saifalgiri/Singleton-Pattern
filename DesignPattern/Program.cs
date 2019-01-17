@@ -30,7 +30,7 @@ namespace DesignPattern
         {
             get
             {
-                //
+                //test
                 if(singleInstance == null)
                 {
                     singleInstance = new Singletone();
