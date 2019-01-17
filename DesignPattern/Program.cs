@@ -30,6 +30,7 @@ namespace DesignPattern
         {
             get
             {
+                //check if the instance already created
                 if(singleInstance == null)
                 {
                     singleInstance = new Singletone();
