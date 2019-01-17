@@ -10,7 +10,7 @@ namespace DesignPattern
             staff.LogMessage("staff");
 
             Singletone manager = Singletone.SingleInstance;
-            manager.LogMessage("manager");
+            manager.LogMessage("manager object");
             Console.ReadKey();
         }
     }
