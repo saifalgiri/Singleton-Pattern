@@ -38,6 +38,7 @@ namespace DesignPattern
 
                 return singleInstance;
             }
+            //..
         }
 
         public void LogMessage(string message)
