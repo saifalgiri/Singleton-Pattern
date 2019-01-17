@@ -23,7 +23,7 @@ namespace DesignPattern
         private  Singletone()
         {
             Counter++;
-            Console.WriteLine("Instance created {0}", Counter);
+            Console.WriteLine("Instance created: {0}", Counter);
         }
 
         public static Singletone SingleInstance
